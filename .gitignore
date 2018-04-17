@@ -1,0 +1,51 @@
+# Basics
+*.py[cod]
+*.pyc
+__pycache__
+
+src/.env*
+src/.venv
+
+# Logs
+*.log
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+*.pot
+
+# Pycharm
+.idea
+
+# Vim
+
+*~
+*.swp
+*.swo
+
+# npm
+node_modules/
+
+# Compass
+.sass-cache
+
+# Vagrant
+vm/.vagrant
+vm/ansible/*.retry
+
+# internal dependencies
+deps/
+
+# pytest
+.cache
+
+# test files
+*.pem
+
+# emacs
+.dir-locals.el
